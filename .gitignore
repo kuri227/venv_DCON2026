@@ -1,0 +1,69 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+
+# Audio datasets and generated audio
+input_wavs/
+output_wavs/
+raw_data/
+recording/
+test_wavs/
+to_split/
+data/
+dataset/
+datasets/
+*.wav
+*.mp3
+*.flac
+*.aac
+*.m4a
+*.ogg
+
+# Source videos and other large media
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+
+# Labels and generated dataset metadata
+multilabel_data.csv
+
+# Trained models, checkpoints, and generated features
+model_path/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.tflite
+*.npy
+*.npz
+
+# Historical files intentionally kept only in the local archive
+src/
+test/
+AudioModel.py
+CRNN_class.py
+inference.py
+
+# Logs and local outputs
+logs/
+*.log
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
